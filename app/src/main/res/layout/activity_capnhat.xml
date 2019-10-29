@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorBlue"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/inKhungcapnhat"
+        android:layout_marginBottom="65dp"
+        android:background="@color/colorOrange"
+        android:text="@string/capnhat"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/inKhungcapnhat"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="7dp"
+        android:padding="15dp"
+        android:text="@string/khachhang"
+        android:textSize="21sp" />
+
+    <LinearLayout
+        android:id="@+id/inKhungcapnhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorWhite"
+            android:hint="@string/ten"
+            android:padding="10dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGray"
+            android:textSize="20dp"
+            android:singleLine="true"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/dienthoai"
+            android:textColorHint="@color/colorGray"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_margin="15dp"
+            android:singleLine="true"
+            android:numeric="integer"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/email"
+            android:textColorHint="@color/colorGray"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_margin="15dp"
+            android:singleLine="true"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/MatKhau"
+            android:textColorHint="@color/colorGray"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_margin="15dp"
+            android:password="true"
+            android:singleLine="true"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/DiaChi"
+            android:textColorHint="@color/colorGray"
+            android:padding="10dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:singleLine="true"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam"
+                android:padding="10dp"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Nữ"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="125dp"
+                android:background="@color/colorOrange"
+                android:padding="15dp"
+                android:text="@string/capnhat"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

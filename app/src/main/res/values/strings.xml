@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="ten">Tên</string>
+    <string name="dienthoai">Điện Thoại</string>
+    <string name="email">Email</string>
+    <string name="MatKhau">Mật Khẩu</string>
+    <string name="DiaChi">Địa Chỉ</string>
+    <string name="capnhat">Cập Nhật</string>
+    <string name="khachhang">Cập nhật thông tin tài khoản khách hàng</string>
 </resources>
